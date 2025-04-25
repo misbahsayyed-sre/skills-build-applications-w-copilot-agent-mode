@@ -33,7 +33,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'tracker',  # Correct the tracker app path
+    'octofit_tracker',  # Add the octofit_tracker app
+    'tracker',  # Ensure tracker app is also included
 ]
 
 # Configure allowed hosts
